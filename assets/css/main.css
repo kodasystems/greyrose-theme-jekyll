@@ -1,0 +1,109 @@
+/* --------------------- Header --------------------- */
+.header {
+  height: 70px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  top: 0px;
+  left: 0px;
+  right: 0px;
+
+  background-color: rgb(77, 70, 70);
+  z-index: 100;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-left-section {
+  display: flex;
+  align-items: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.header-center-section {
+  display: flex;
+  align-items: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.header-right-section {
+  display: flex;
+  align-items: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/* --------------------- Gallery --------------------- */
+.gallery-photo-panel {
+  font-family: Cambria, Cochin, Georgia;
+  height: 500px;
+  width: 100%;
+
+  background-color: #a9ed7d; /* Background color */
+}
+
+/* --------------------- Slideshow --------------------- */
+.slideshow-panel {
+  font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
+  height: 500px;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  background-color: rgb(78, 78, 246);
+}
+
+.slideshow-slide {
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  top: 30px;
+}
+
+/* --------------------- Sidebar --------------------- */
+.sidebar {
+
+  height: 100vh; /* Full height */
+  width: 25%; /* Half of the page */
+  /* position: fixed; Fixed position */
+  top: 0;
+  left: 0px;
+  left: 0;
+  position: relative;
+  background-color: #f73b3b; /* Background color */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+  z-index: 100;
+
+  /*
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  top: 70px;
+  margin-top: 500px;
+  background-color: rgb(216, 53, 53);
+  width: 200px;
+  z-index: 200;
+  padding-top: 5px;
+  font-family: Times, 'Times New Roman', serif;
+  */
+}
+
+/* --------------------- Body --------------------- */
+.body-panel {
+  background-color: #95989a;
+  font-family: Cambria, 'Times New Roman', serif;
+  height: 2000px;
+}
+
+/* --------------------- Info --------------------- */
+.info-panel {
+  height: 300px;
+  font-family: serif;
+  background-color: #b7def9;
+}
+
+/* --------------------- Footer --------------------- */
+.footer {
+  height: 100px;
+  font-family: Georgia, Times, 'Times New Roman';
+  background-color: #9874eb;
+}
